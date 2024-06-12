@@ -9,7 +9,7 @@ from wikipedia.items import WikipediaItem
 
 class WikiSplashSpider(scrapy.Spider):
     name = "wiki_splash"
-    allowed_domains = ["www.wikipedia.org", "en.wikipedia.org"]
+    allowed_domains = ["en.wikipedia.org", "localhost", "127.0.0.1", "172.23.0.2"]
     start_urls = ["https://en.wikipedia.org/wiki/Web_scraping"]
 
     def start_requests(self):

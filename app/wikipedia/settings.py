@@ -94,6 +94,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
 # Splash settings
-SPLASH_URL = "http://localhost:8050"
+# SPLASH_URL = "http://localhost:8050"
+SPLASH_URL = "http://172.23.0.2:8050"  # For using from docker container
 DUPEFILTER_CLASS = "scrapy_splash.SplashAwareDupeFilter"
 HTTPCACHE_STORAGE = "scrapy_splash.SplashAwareFSCacheStorage"
